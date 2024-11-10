@@ -95,355 +95,239 @@
     ]
   },
   "medicalHistory": {
-      "user": { "idUser": 2 },
-      "appointments": [
-        {
-          "idAppointment": 103,
-          "appointmentDate": "2023-09-25T10:00:00",
-          "appointmentType": "General Consultation",
-          "idDoctor": 204,
-          "appointmentResult": {
-            "report": "The patient reports occasional headaches and fatigue.",
-            "tests": [
-              { "type": "Blood Test", "result": "Normal" }
-            ],
-            "prescriptions": [
-              { "idMedication": 307, "dosage": "100 mg daily" }
-            ],
-            "diagnosis": "Tension headaches",
-            "ptr": ["Stress"]
-          }
+    "user": { "idUser": 2 },
+    "appointments": [
+      {
+        "idAppointment": 103,
+        "appointmentDate": "2023-09-25T10:00:00",
+        "appointmentType": "General Consultation",
+        "idDoctor": 204,
+        "appointmentResult": {
+          "report": "The patient reports occasional headaches and fatigue.",
+          "tests": [
+            { "type": "Blood Test", "result": "Normal" }
+          ],
+          "prescriptions": [
+            { "idMedication": 307, "dosage": "100 mg daily" }
+          ],
+          "diagnosis": "Tension headaches",
+          "ptr": ["Stress"]
         }
-      ],
-      "hospitalizations": [],
-      "surgeries": []
+      }
+    ],
+    "hospitalizations": [],
+    "surgeries": []
   },
-    "medicalHistory": {
-      "user": { "idUser": 3 },
-      "appointments": [
-        {
-          "idAppointment": 104,
-          "appointmentDate": "2023-10-10T11:30:00",
-          "appointmentType": "Specialty Consultation",
-          "idDoctor": 205,
-          "appointmentResult": {
-            "report": "Routine evaluation of skin condition.",
-            "tests": [
-              { "type": "Skin biopsy", "result": "Benign" }
-            ],
-            "prescriptions": [
-              { "idMedication": 308, "dosage": "Apply daily" }
-            ],
-            "diagnosis": "Psoriasis",
-            "ptr": []
-          }
+  "medicalHistory": {
+    "user": { "idUser": 3 },
+    "appointments": [
+      {
+        "idAppointment": 104,
+        "appointmentDate": "2023-10-10T11:30:00",
+        "appointmentType": "Specialty Consultation",
+        "idDoctor": 205,
+        "appointmentResult": {
+          "report": "Routine evaluation of skin condition.",
+          "tests": [
+            { "type": "Skin biopsy", "result": "Benign" }
+          ],
+          "prescriptions": [
+            { "idMedication": 308, "dosage": "Apply daily" }
+          ],
+          "diagnosis": "Psoriasis",
+          "ptr": []
         }
-      ],
-      "hospitalizations": [],
-      "surgeries": []
+      }
+    ],
+    "hospitalizations": [],
+    "surgeries": []
   },
-    "medicalHistory": {
-      "user": { "idUser": 4 },
-      "appointments": [
-        {
-          "idAppointment": 105,
-          "appointmentDate": "2023-11-02T15:00:00",
-          "appointmentType": "General Consultation",
-          "idDoctor": 206,
-          "appointmentResult": {
-            "report": "Patient reports shortness of breath during physical activity.",
-            "tests": [
-              { "type": "Spirometry", "result": "Mild obstructive pattern" }
-            ],
-            "prescriptions": [
-              { "idMedication": 309, "dosage": "2 puffs twice daily" }
-            ],
-            "diagnosis": "Mild asthma",
-            "ptr": ["Respiratory condition"]
-          }
+  "medicalHistory": {
+    "user": { "idUser": 4 },
+    "appointments": [
+      {
+        "idAppointment": 105,
+        "appointmentDate": "2023-11-02T15:00:00",
+        "appointmentType": "General Consultation",
+        "idDoctor": 206,
+        "appointmentResult": {
+          "report": "Patient reports shortness of breath during physical activity.",
+          "tests": [
+            { "type": "Spirometry", "result": "Mild obstructive pattern" }
+          ],
+          "prescriptions": [
+            { "idMedication": 309, "dosage": "2 puffs twice daily" }
+          ],
+          "diagnosis": "Mild asthma",
+          "ptr": ["Respiratory condition"]
         }
-      ],
-      "hospitalizations": [],
-      "surgeries": []
+      }
+    ],
+    "hospitalizations": [],
+    "surgeries": []
   },
-    "medicalHistory": {
-      "user": { "idUser": 5 },
-      "appointments": [
-        {
-          "idAppointment": 106,
-          "appointmentDate": "2023-09-18T13:45:00",
-          "appointmentType": "General Consultation",
-          "idDoctor": 207,
-          "appointmentResult": {
-            "report": "Patient reports frequent urination and thirst.",
-            "tests": [
-              { "type": "Urinalysis", "result": "Glucose present" },
-              { "type": "Blood Test", "result": "Elevated glucose levels" }
-            ],
-            "prescriptions": [
-              { "idMedication": 310, "dosage": "Metformin 500 mg twice daily" }
-            ],
-            "diagnosis": "Type 2 Diabetes",
-            "ptr": []
-          }
+  "medicalHistory": {
+    "user": { "idUser": 5 },
+    "appointments": [
+      {
+        "idAppointment": 106,
+        "appointmentDate": "2023-09-18T13:45:00",
+        "appointmentType": "General Consultation",
+        "idDoctor": 207,
+        "appointmentResult": {
+          "report": "Patient reports frequent urination and thirst.",
+          "tests": [
+            { "type": "Urinalysis", "result": "Glucose present" },
+            { "type": "Blood Test", "result": "Elevated glucose levels" }
+          ],
+          "prescriptions": [
+            { "idMedication": 310, "dosage": "Metformin 500 mg twice daily" }
+          ],
+          "diagnosis": "Type 2 Diabetes",
+          "ptr": []
         }
-      ],
-      "hospitalizations": [],
-      "surgeries": []
+      }
+    ],
+    "hospitalizations": [],
+    "surgeries": []
   },
-    "medicalHistory": {
-      "user": { "idUser": 6 },
-      "appointments": [
-        {
-          "idAppointment": 107,
-          "appointmentDate": "2023-10-20T12:15:00",
-          "appointmentType": "Specialty Consultation",
-          "idDoctor": 208,
-          "appointmentResult": {
-            "report": "Routine cardiology consultation.",
-            "tests": [
-              { "type": "Echocardiogram", "result": "Normal" }
-            ],
-            "prescriptions": [],
-            "diagnosis": "Healthy heart",
-            "ptr": []
-          }
+  "medicalHistory": {
+    "user": { "idUser": 6 },
+    "appointments": [
+      {
+        "idAppointment": 107,
+        "appointmentDate": "2023-10-20T12:15:00",
+        "appointmentType": "Specialty Consultation",
+        "idDoctor": 208,
+        "appointmentResult": {
+          "report": "Routine cardiology consultation.",
+          "tests": [
+            { "type": "Echocardiogram", "result": "Normal" }
+          ],
+          "prescriptions": [],
+          "diagnosis": "Healthy heart",
+          "ptr": []
         }
-      ],
-      "hospitalizations": [],
-      "surgeries": []
+      }
+    ],
+    "hospitalizations": [],
+    "surgeries": []
   },
-    "medicalHistory": {
-      "user": { "idUser": 7 },
-      "appointments": [
-        {
-          "idAppointment": 108,
-          "appointmentDate": "2023-11-05T10:45:00",
-          "appointmentType": "General Consultation",
-          "idDoctor": 209,
-          "appointmentResult": {
-            "report": "The patient reports knee pain and difficulty walking.",
-            "tests": [
-              { "type": "X-ray", "result": "Mild osteoarthritis" }
-            ],
-            "prescriptions": [
-              { "idMedication": 311, "dosage": "Ibuprofen 200 mg as needed" }
-            ],
-            "diagnosis": "Osteoarthritis",
-            "ptr": ["Age-related condition"]
-          }
+  "medicalHistory": {
+    "user": { "idUser": 7 },
+    "appointments": [
+      {
+        "idAppointment": 108,
+        "appointmentDate": "2023-11-05T10:45:00",
+        "appointmentType": "General Consultation",
+        "idDoctor": 209,
+        "appointmentResult": {
+          "report": "The patient reports knee pain and difficulty walking.",
+          "tests": [
+            { "type": "X-ray", "result": "Mild osteoarthritis" }
+          ],
+          "prescriptions": [
+            { "idMedication": 311, "dosage": "Ibuprofen 200 mg as needed" }
+          ],
+          "diagnosis": "Osteoarthritis",
+          "ptr": ["Age-related condition"]
         }
-      ],
-      "hospitalizations": [],
-      "surgeries": []
+      }
+    ],
+    "hospitalizations": [],
+    "surgeries": []
   },
-    "medicalHistory": {
-      "user": { "idUser": 8 },
-      "appointments": [
-        {
-          "idAppointment": 109,
-          "appointmentDate": "2023-08-22T14:30:00",
-          "appointmentType": "General Consultation",
-          "idDoctor": 210,
-          "appointmentResult": {
-            "report": "Patient presents with chronic cough and mucus production.",
-            "tests": [
-              { "type": "Chest X-ray", "result": "No abnormalities" }
-            ],
-            "prescriptions": [
-              { "idMedication": 312, "dosage": "200 mg every 8 hours" }
-            ],
-            "diagnosis": "Chronic bronchitis",
-            "ptr": ["Smoking history"]
-          }
+  "medicalHistory": {
+    "user": { "idUser": 8 },
+    "appointments": [
+      {
+        "idAppointment": 109,
+        "appointmentDate": "2023-08-22T14:30:00",
+        "appointmentType": "General Consultation",
+        "idDoctor": 210,
+        "appointmentResult": {
+          "report": "Patient presents with chronic cough and mucus production.",
+          "tests": [
+            { "type": "Chest X-ray", "result": "No abnormalities" }
+          ],
+          "prescriptions": [
+            { "idMedication": 312, "dosage": "200 mg every 8 hours" }
+          ],
+          "diagnosis": "Chronic bronchitis",
+          "ptr": ["Smoking history"]
         }
-      ],
-      "hospitalizations": [],
-      "surgeries": []
+      }
+    ],
+    "hospitalizations": [],
+    "surgeries": []
   },
-    "medicalHistory": {
-      "user": { "idUser": 9 },
-      "appointments": [
-        {
-          "idAppointment": 110,
-          "appointmentDate": "2023-09-01T16:00:00",
-          "appointmentType": "Specialty Consultation",
-          "idDoctor": 211,
-          "appointmentResult": {
-            "report": "Routine eye exam.",
-            "tests": [
-              { "type": "Ophthalmoscopy", "result": "No significant findings" }
-            ],
-            "prescriptions": [],
-            "diagnosis": "Healthy vision",
-            "ptr": []
-          }
+  "medicalHistory": {
+    "user": { "idUser": 9 },
+    "appointments": [
+      {
+        "idAppointment": 110,
+        "appointmentDate": "2023-09-01T16:00:00",
+        "appointmentType": "Specialty Consultation",
+        "idDoctor": 211,
+        "appointmentResult": {
+          "report": "Routine eye exam.",
+          "tests": [
+            { "type": "Ophthalmoscopy", "result": "No significant findings" }
+          ],
+          "prescriptions": [],
+          "diagnosis": "Healthy vision",
+          "ptr": []
         }
-      ],
-      "hospitalizations": [],
-      "surgeries": []
+      }
+    ],
+    "hospitalizations": [],
+    "surgeries": []
   },
-    "medicalHistory": {
-      "user": { "idUser": 10 },
-      "appointments": [
-        {
-          "idAppointment": 111,
-          "appointmentDate": "2023-10-05T11:30:00",
-          "appointmentType": "General Consultation",
-          "idDoctor": 212,
-          "appointmentResult": {
-            "report": "The patient complains of stomach discomfort after meals.",
-            "tests": [
-              { "type": "Endoscopy", "result": "Mild gastritis" }
-            ],
-            "prescriptions": [
-              { "idMedication": 313, "dosage": "Omeprazole 20 mg daily" }
-            ],
-            "diagnosis": "Gastritis",
-            "ptr": []
-          }
+  "medicalHistory": {
+    "user": { "idUser": 10 },
+    "appointments": [
+      {
+        "idAppointment": 111,
+        "appointmentDate": "2023-10-05T11:30:00",
+        "appointmentType": "General Consultation",
+        "idDoctor": 212,
+        "appointmentResult": {
+          "report": "The patient complains of stomach discomfort after meals.",
+          "tests": [
+            { "type": "Endoscopy", "result": "Mild gastritis" }
+          ],
+          "prescriptions": [
+            { "idMedication": 313, "dosage": "Omeprazole 20 mg daily" }
+          ],
+          "diagnosis": "Gastritis",
+          "ptr": []
         }
-      ],
-      "hospitalizations": [],
-      "surgeries": []
+      }
+    ],
+    "hospitalizations": [],
+    "surgeries": []
   },
-    "medicalHistory": {
-      "user": { "idUser": 11 },
-      "appointments": [
-        {
-          "idAppointment": 112,
-          "appointmentDate": "2023-08-10T13:00:00",
-          "appointmentType": "Specialty Consultation",
-          "idDoctor": 213,
-          "appointmentResult": {
-            "report": "Patient reports intermittent chest pain.",
-            "tests": [
-              { "type": "Stress Test", "result": "Normal" },
-              { "type": "ECG", "result": "No abnormalities" }
-            ],
-            "prescriptions": [],
-            "diagnosis": "No cardiovascular issues",
-            "ptr": []
-          }
+  "medicalHistory": {
+    "user": { "idUser": 11 },
+    "appointments": [
+      {
+        "idAppointment": 112,
+        "appointmentDate": "2023-08-10T13:00:00",
+        "appointmentType": "Specialty Consultation",
+        "idDoctor": 213,
+        "appointmentResult": {
+          "report": "Patient reports intermittent chest pain.",
+          "tests": [
+            { "type": "Stress Test", "result": "Normal" },
+            { "type": "ECG", "result": "No abnormalities" }
+          ],
+          "prescriptions": [],
+          "diagnosis": "No cardiovascular issues",
+          "ptr": []
         }
-      ],
-      "hospitalizations": [],
-      "surgeries": []
-  },
-    "medicalHistory": {
-      "user": { "idUser": 12 },
-      "appointments": [
-        {
-          "idAppointment": 113,
-          "appointmentDate": "2023-10-15T09:00:00",
-          "appointmentType": "General Consultation",
-          "idDoctor": 214,
-          "appointmentResult": {
-            "report": "Routine follow-up for chronic back pain.",
-            "tests": [
-              { "type": "MRI", "result": "Herniated disc at L5-S1" }
-            ],
-            "prescriptions": [
-              { "idMedication": 314, "dosage": "Morphine 10 mg as needed" }
-            ],
-            "diagnosis": "Chronic back pain",
-            "ptr": []
-          }
-        }
-      ],
-      "hospitalizations": [],
-      "surgeries": []
-  },
-    "medicalHistory": {
-      "user": { "idUser": 13 },
-      "appointments": [
-        {
-          "idAppointment": 114,
-          "appointmentDate": "2023-09-30T14:30:00",
-          "appointmentType": "General Consultation",
-          "idDoctor": 215,
-          "appointmentResult": {
-            "report": "Routine follow-up for allergies.",
-            "tests": [
-              { "type": "Allergy Test", "result": "Positive for dust mites" }
-            ],
-            "prescriptions": [
-              { "idMedication": 315, "dosage": "Cetirizine 10 mg daily" }
-            ],
-            "diagnosis": "Allergic rhinitis",
-            "ptr": []
-          }
-        }
-      ],
-      "hospitalizations": [],
-      "surgeries": []
-  },
-    "medicalHistory": {
-      "user": { "idUser": 14 },
-      "appointments": [
-        {
-          "idAppointment": 115,
-          "appointmentDate": "2023-08-20T12:00:00",
-          "appointmentType": "Specialty Consultation",
-          "idDoctor": 216,
-          "appointmentResult": {
-            "report": "Patient reports joint pain in hands and knees.",
-            "tests": [
-              { "type": "Rheumatoid Factor Test", "result": "Negative" }
-            ],
-            "prescriptions": [],
-            "diagnosis": "Possible osteoarthritis",
-            "ptr": []
-          }
-        }
-      ],
-      "hospitalizations": [],
-      "surgeries": []
-  },
-    "medicalHistory": {
-      "user": { "idUser": 15 },
-      "appointments": [
-        {
-          "idAppointment": 116,
-          "appointmentDate": "2023-09-12T10:30:00",
-          "appointmentType": "General Consultation",
-          "idDoctor": 217,
-          "appointmentResult": {
-            "report": "Routine check-up for pregnancy.",
-            "tests": [
-              { "type": "Ultrasound", "result": "Healthy pregnancy, 12 weeks" }
-            ],
-            "prescriptions": [],
-            "diagnosis": "Normal pregnancy",
-            "ptr": []
-          }
-        }
-      ],
-      "hospitalizations": [],
-      "surgeries": []
-  },
-    "medicalHistory": {
-      "user": { "idUser": 16 },
-      "appointments": [
-        {
-          "idAppointment": 117,
-          "appointmentDate": "2023-10-25T11:00:00",
-          "appointmentType": "Specialty Consultation",
-          "idDoctor": 218,
-          "appointmentResult": {
-            "report": "Evaluation for migraine headaches.",
-            "tests": [
-              { "type": "Neurological exam", "result": "Normal" }
-            ],
-            "prescriptions": [
-              { "idMedication": 316, "dosage": "Topiramate 25 mg daily" }
-            ],
-            "diagnosis": "Migraine headaches",
-            "ptr": []
-          }
-        }
-      ],
-      "hospitalizations": [],
-      "surgeries": []
-    }
+      }
+    ],
+    "hospitalizations": [],
+    "surgeries": []
   }
+}

@@ -1,398 +1,398 @@
 {
-  "medicalHistories": [
+  "medHist": [
     {
-      "user": { "idUser": 1 },
-      "appointments": [
+      "usr": { "id": 1 },
+      "aps": [
         {
-          "idAppointment": 101,
-          "appointmentDate": "2023-10-15T09:30:00",
-          "appointmentType": "General Consultation",
-          "idDoctor": 201,
-          "appointmentResult": {
-            "report": "The patient presents mild cold symptoms.",
+          "idApp": 101,
+          "date": "2023-10-15T09:30:00",
+          "type": "Consulta General",
+          "idDoc": 201,
+          "result": {
+            "rep": "Síntomas leves de resfriado.",
             "tests": [
               {
-                "type": "Blood Test",
-                "result": "Normal white blood cell count"
+                "type": "Análisis de sangre",
+                "result": "Recuento normal de glóbulos blancos"
               }
             ],
-            "prescriptions": [
+            "meds": [
               {
-                "idMedication": 301,
-                "dosage": "500 mg every 8 hours"
+                "idMed": 301,
+                "dose": "500 mg cada 8 horas"
               }
             ],
-            "diagnosis": "Common cold",
+            "dx": "Resfriado común",
             "ptr": [
-              "Pollen allergy",
-              "Mild asthma"
+              "Alergia al polen",
+              "Asma leve"
             ]
           }
         },
         {
-          "idAppointment": 102,
-          "appointmentDate": "2023-11-10T14:00:00",
-          "appointmentType": "Specialty Consultation",
-          "idDoctor": 202,
-          "appointmentResult": {
-            "report": "Evaluation of blood pressure and heart rate",
+          "idApp": 102,
+          "date": "2023-11-10T14:00:00",
+          "type": "Consulta Especializada",
+          "idDoc": 202,
+          "result": {
+            "rep": "Evaluación de presión arterial y ritmo cardíaco",
             "tests": [
               {
-                "type": "Electrocardiogram",
-                "result": "No abnormalities"
+                "type": "Electrocardiograma",
+                "result": "Sin anormalidades"
               }
             ],
-            "prescriptions": [
+            "meds": [
               {
-                "idMedication": 302,
-                "dosage": "50 mg daily"
+                "idMed": 302,
+                "dose": "50 mg diarios"
               }
             ],
-            "diagnosis": "Controlled hypertension",
+            "dx": "Hipertensión controlada",
             "ptr": [
-              "Hypertension"
+              "Hipertensión"
             ]
           }
         }
       ],
-      "hospitalizations": [
+      "hosp": [
         {
-          "admissionDate": "2023-09-05",
-          "dischargeDate": "2023-09-10",
-          "reason": "Pneumonia",
-          "medications": [
+          "admit": "2023-09-05",
+          "disch": "2023-09-10",
+          "reason": "Neumonía",
+          "meds": [
             {
-              "idMedication": 303,
-              "dosage": "500 mg every 8 hours"
+              "idMed": 303,
+              "dose": "500 mg cada 8 horas"
             },
             {
-              "idMedication": 304,
-              "dosage": "400 mg every 6 hours"
+              "idMed": 304,
+              "dose": "400 mg cada 6 horas"
             }
           ]
         }
       ],
-      "surgeries": [
+      "surg": [
         {
-          "idSurgery": 301,
-          "surgeryDate": "2022-08-15",
-          "surgeryType": "Appendectomy",
-          "idDoctor": 203,
-          "details": "Appendix removed due to acute appendicitis",
-          "postSurgeryMedications": [
+          "idSurg": 301,
+          "date": "2022-08-15",
+          "type": "Apendicectomía",
+          "idDoc": 203,
+          "details": "Apendicitis aguda",
+          "postMed": [
             {
-              "idMedication": 305,
-              "dosage": "400 mg every 6 hours"
+              "idMed": 305,
+              "dose": "400 mg cada 6 horas"
             },
             {
-              "idMedication": 306,
-              "dosage": "20 mg daily"
+              "idMed": 306,
+              "dose": "20 mg diarios"
             }
           ],
-          "postSurgeryStatus": "Recovery without complications"
+          "status": "Recuperación sin complicaciones"
         }
       ]
     },
     {
-      "user": { "idUser": 2 },
-      "appointments": [
+      "usr": { "id": 2 },
+      "aps": [
         {
-          "idAppointment": 103,
-          "appointmentDate": "2023-09-25T10:00:00",
-          "appointmentType": "General Consultation",
-          "idDoctor": 204,
-          "appointmentResult": {
-            "report": "The patient reports occasional headaches and fatigue.",
+          "idApp": 103,
+          "date": "2023-09-25T10:00:00",
+          "type": "Consulta General",
+          "idDoc": 204,
+          "result": {
+            "rep": "Dolores de cabeza y fatiga ocasionales.",
             "tests": [
               {
-                "type": "Blood Test",
+                "type": "Análisis de sangre",
                 "result": "Normal"
               }
             ],
-            "prescriptions": [
+            "meds": [
               {
-                "idMedication": 307,
-                "dosage": "100 mg daily"
+                "idMed": 307,
+                "dose": "100 mg diarios"
               }
             ],
-            "diagnosis": "Tension headaches",
+            "dx": "Dolores de cabeza por tensión",
             "ptr": [
-              "Stress"
+              "Estrés"
             ]
           }
         }
       ],
-      "hospitalizations": [],
-      "surgeries": []
+      "hosp": [],
+      "surg": []
     },
     {
-      "user": { "idUser": 3 },
-      "appointments": [
+      "usr": { "id": 3 },
+      "aps": [
         {
-          "idAppointment": 104,
-          "appointmentDate": "2023-10-10T11:30:00",
-          "appointmentType": "Specialty Consultation",
-          "idDoctor": 205,
-          "appointmentResult": {
-            "report": "Routine evaluation of skin condition.",
+          "idApp": 104,
+          "date": "2023-10-10T11:30:00",
+          "type": "Consulta Especializada",
+          "idDoc": 205,
+          "result": {
+            "rep": "Evaluación rutinaria de piel.",
             "tests": [
               {
-                "type": "Skin biopsy",
-                "result": "Benign"
+                "type": "Biopsia de piel",
+                "result": "Benigno"
               }
             ],
-            "prescriptions": [
+            "meds": [
               {
-                "idMedication": 308,
-                "dosage": "Apply daily"
+                "idMed": 308,
+                "dose": "Aplicar diariamente"
               }
             ],
-            "diagnosis": "Psoriasis",
+            "dx": "Psoriasis",
             "ptr": []
           }
         }
       ],
-      "hospitalizations": [],
-      "surgeries": []
+      "hosp": [],
+      "surg": []
     },
     {
-      "user": { "idUser": 4 },
-      "appointments": [
+      "usr": { "id": 4 },
+      "aps": [
         {
-          "idAppointment": 105,
-          "appointmentDate": "2023-11-02T15:00:00",
-          "appointmentType": "General Consultation",
-          "idDoctor": 206,
-          "appointmentResult": {
-            "report": "Patient reports shortness of breath during physical activity.",
+          "idApp": 105,
+          "date": "2023-11-02T15:00:00",
+          "type": "Consulta General",
+          "idDoc": 206,
+          "result": {
+            "rep": "Dificultad para respirar con actividad física.",
             "tests": [
               {
-                "type": "Spirometry",
-                "result": "Mild obstructive pattern"
+                "type": "Espirometría",
+                "result": "Patrón obstructivo leve"
               }
             ],
-            "prescriptions": [
+            "meds": [
               {
-                "idMedication": 309,
-                "dosage": "2 puffs twice daily"
+                "idMed": 309,
+                "dose": "2 inhalaciones dos veces al día"
               }
             ],
-            "diagnosis": "Mild asthma",
+            "dx": "Asma leve",
             "ptr": [
-              "Respiratory condition"
+              "Condición respiratoria"
             ]
           }
         }
       ],
-      "hospitalizations": [],
-      "surgeries": []
+      "hosp": [],
+      "surg": []
     },
     {
-      "user": { "idUser": 5 },
-      "appointments": [
+      "usr": { "id": 5 },
+      "aps": [
         {
-          "idAppointment": 106,
-          "appointmentDate": "2023-09-18T13:45:00",
-          "appointmentType": "General Consultation",
-          "idDoctor": 207,
-          "appointmentResult": {
-            "report": "Patient reports frequent urination and thirst.",
+          "idApp": 106,
+          "date": "2023-09-18T13:45:00",
+          "type": "Consulta General",
+          "idDoc": 207,
+          "result": {
+            "rep": "Frecuencia urinaria y sed excesiva.",
             "tests": [
               {
-                "type": "Urinalysis",
-                "result": "Glucose present"
+                "type": "Análisis de orina",
+                "result": "Glucosa presente"
               },
               {
-                "type": "Blood Test",
-                "result": "Elevated glucose levels"
+                "type": "Análisis de sangre",
+                "result": "Glucosa elevada"
               }
             ],
-            "prescriptions": [
+            "meds": [
               {
-                "idMedication": 310,
-                "dosage": "Metformin 500 mg twice daily"
+                "idMed": 310,
+                "dose": "Metformina 500 mg dos veces al día"
               }
             ],
-            "diagnosis": "Type 2 Diabetes",
+            "dx": "Diabetes tipo 2",
             "ptr": []
           }
         }
       ],
-      "hospitalizations": [],
-      "surgeries": []
+      "hosp": [],
+      "surg": []
     },
     {
-      "user": { "idUser": 6 },
-      "appointments": [
+      "usr": { "id": 6 },
+      "aps": [
         {
-          "idAppointment": 107,
-          "appointmentDate": "2023-10-20T12:15:00",
-          "appointmentType": "Specialty Consultation",
-          "idDoctor": 208,
-          "appointmentResult": {
-            "report": "Routine cardiology consultation.",
+          "idApp": 107,
+          "date": "2023-10-20T12:15:00",
+          "type": "Consulta Especializada",
+          "idDoc": 208,
+          "result": {
+            "rep": "Consulta rutinaria de cardiología.",
             "tests": [
               {
-                "type": "Echocardiogram",
+                "type": "Ecocardiograma",
                 "result": "Normal"
               }
             ],
-            "prescriptions": [],
-            "diagnosis": "Healthy heart",
+            "meds": [],
+            "dx": "Corazón sano",
             "ptr": []
           }
         }
       ],
-      "hospitalizations": [],
-      "surgeries": []
+      "hosp": [],
+      "surg": []
     },
     {
-      "user": { "idUser": 7 },
-      "appointments": [
+      "usr": { "id": 7 },
+      "aps": [
         {
-          "idAppointment": 108,
-          "appointmentDate": "2023-11-05T10:45:00",
-          "appointmentType": "General Consultation",
-          "idDoctor": 209,
-          "appointmentResult": {
-            "report": "The patient reports knee pain and difficulty walking.",
+          "idApp": 108,
+          "date": "2023-11-05T10:45:00",
+          "type": "Consulta General",
+          "idDoc": 209,
+          "result": {
+            "rep": "Dolor en rodilla y dificultad para caminar.",
             "tests": [
               {
-                "type": "X-ray",
-                "result": "Mild osteoarthritis"
+                "type": "Radiografía",
+                "result": "Osteoartritis leve"
               }
             ],
-            "prescriptions": [
+            "meds": [
               {
-                "idMedication": 311,
-                "dosage": "Ibuprofen 200 mg as needed"
+                "idMed": 311,
+                "dose": "Ibuprofeno 200 mg según sea necesario"
               }
             ],
-            "diagnosis": "Osteoarthritis",
+            "dx": "Osteoartritis",
             "ptr": [
-              "Age-related condition"
+              "Condición relacionada con la edad"
             ]
           }
         }
       ],
-      "hospitalizations": [],
-      "surgeries": []
+      "hosp": [],
+      "surg": []
     },
     {
-      "user": { "idUser": 8 },
-      "appointments": [
+      "usr": { "id": 8 },
+      "aps": [
         {
-          "idAppointment": 109,
-          "appointmentDate": "2023-08-22T14:30:00",
-          "appointmentType": "General Consultation",
-          "idDoctor": 210,
-          "appointmentResult": {
-            "report": "Patient presents with chronic cough and mucus production.",
+          "idApp": 109,
+          "date": "2023-08-22T14:30:00",
+          "type": "Consulta General",
+          "idDoc": 210,
+          "result": {
+            "rep": "Tos crónica y producción de moco.",
             "tests": [
               {
-                "type": "Chest X-ray",
-                "result": "No abnormalities"
+                "type": "Radiografía de tórax",
+                "result": "Sin anormalidades"
               }
             ],
-            "prescriptions": [
+            "meds": [
               {
-                "idMedication": 312,
-                "dosage": "200 mg every 8 hours"
+                "idMed": 312,
+                "dose": "200 mg cada 8 horas"
               }
             ],
-            "diagnosis": "Chronic bronchitis",
+            "dx": "Bronquitis crónica",
             "ptr": [
-              "Smoking history"
+              "Historia de tabaquismo"
             ]
           }
         }
       ],
-      "hospitalizations": [],
-      "surgeries": []
+      "hosp": [],
+      "surg": []
     },
     {
-      "user": { "idUser": 9 },
-      "appointments": [
+      "usr": { "id": 9 },
+      "aps": [
         {
-          "idAppointment": 110,
-          "appointmentDate": "2023-09-01T16:00:00",
-          "appointmentType": "Specialty Consultation",
-          "idDoctor": 211,
-          "appointmentResult": {
-            "report": "Routine eye exam.",
+          "idApp": 110,
+          "date": "2023-09-01T16:00:00",
+          "type": "Consulta Especializada",
+          "idDoc": 211,
+          "result": {
+            "rep": "Examen rutinario de ojos.",
             "tests": [
               {
-                "type": "Ophthalmoscopy",
-                "result": "No significant findings"
+                "type": "Oftalmoscopía",
+                "result": "Sin hallazgos importantes"
               }
             ],
-            "prescriptions": [],
-            "diagnosis": "Healthy vision",
+            "meds": [],
+            "dx": "Visión saludable",
             "ptr": []
           }
         }
       ],
-      "hospitalizations": [],
-      "surgeries": []
+      "hosp": [],
+      "surg": []
     },
     {
-      "user": { "idUser": 10 },
-      "appointments": [
+      "usr": { "id": 10 },
+      "aps": [
         {
-          "idAppointment": 111,
-          "appointmentDate": "2023-10-05T11:30:00",
-          "appointmentType": "General Consultation",
-          "idDoctor": 212,
-          "appointmentResult": {
-            "report": "The patient complains of stomach discomfort after meals.",
+          "idApp": 111,
+          "date": "2023-10-05T11:30:00",
+          "type": "Consulta General",
+          "idDoc": 212,
+          "result": {
+            "rep": "Dolor estomacal después de las comidas.",
             "tests": [
               {
-                "type": "Endoscopy",
-                "result": "Mild gastritis"
+                "type": "Endoscopia",
+                "result": "Gastritis leve"
               }
             ],
-            "prescriptions": [
+            "meds": [
               {
-                "idMedication": 313,
-                "dosage": "Omeprazole 20 mg daily"
+                "idMed": 313,
+                "dose": "Omeprazol 20 mg diarios"
               }
             ],
-            "diagnosis": "Gastritis",
+            "dx": "Gastritis",
             "ptr": []
           }
         }
       ],
-      "hospitalizations": [],
-      "surgeries": []
+      "hosp": [],
+      "surg": []
     },
     {
-      "user": { "idUser": 11 },
-      "appointments": [
+      "usr": { "id": 11 },
+      "aps": [
         {
-          "idAppointment": 112,
-          "appointmentDate": "2023-08-10T13:00:00",
-          "appointmentType": "Specialty Consultation",
-          "idDoctor": 213,
-          "appointmentResult": {
-            "report": "Patient reports intermittent chest pain.",
+          "idApp": 112,
+          "date": "2023-08-10T13:00:00",
+          "type": "Consulta Especializada",
+          "idDoc": 213,
+          "result": {
+            "rep": "Dolor torácico intermitente.",
             "tests": [
               {
-                "type": "Stress Test",
+                "type": "Prueba de esfuerzo",
                 "result": "Normal"
               },
               {
                 "type": "ECG",
-                "result": "No abnormalities"
+                "result": "Sin anormalidades"
               }
             ],
-            "prescriptions": [],
-            "diagnosis": "No cardiovascular issues",
+            "meds": [],
+            "dx": "Sin problemas cardiovasculares",
             "ptr": []
           }
         }
       ],
-      "hospitalizations": [],
-      "surgeries": []
+      "hosp": [],
+      "surg": []
     }
   ]
 }

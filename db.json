@@ -1,398 +1,421 @@
 {
-  "medHist": [
+  "users": [
     {
-      "usr": { "id": 1 },
-      "aps": [
-        {
-          "idApp": 101,
-          "date": "2023-10-15T09:30:00",
-          "type": "Consulta General",
-          "idDoc": 201,
-          "result": {
-            "rep": "Síntomas leves de resfriado.",
-            "tests": [
+      "id": 1,
+      "history": {
+        "appointments": [
+          {
+            "idApp": 101,
+            "date": "2023-10-15T09:30:00",
+            "type": "Consulta General",
+            "idDoc": 201,
+            "result": {
+              "report": "Síntomas leves de resfriado.",
+              "tests": [
+                {
+                  "type": "Análisis de sangre",
+                  "result": "Recuento normal de glóbulos blancos"
+                }
+              ],
+              "medications": [
+                {
+                  "idMed": 301,
+                  "dose": "500 mg cada 8 horas"
+                }
+              ],
+              "diagnosis": "Resfriado común",
+              "priorities": [
+                "Alergia al polen",
+                "Asma leve"
+              ]
+            }
+          },
+          {
+            "idApp": 102,
+            "date": "2023-11-10T14:00:00",
+            "type": "Consulta Especializada",
+            "idDoc": 202,
+            "result": {
+              "report": "Evaluación de presión arterial y ritmo cardíaco",
+              "tests": [
+                {
+                  "type": "Electrocardiograma",
+                  "result": "Sin anormalidades"
+                }
+              ],
+              "medications": [
+                {
+                  "idMed": 302,
+                  "dose": "50 mg diarios"
+                }
+              ],
+              "diagnosis": "Hipertensión controlada",
+              "priorities": [
+                "Hipertensión"
+              ]
+            }
+          }
+        ],
+        "hospitalizations": [
+          {
+            "admissionDate": "2023-09-05",
+            "dischargeDate": "2023-09-10",
+            "reason": "Neumonía",
+            "medications": [
               {
-                "type": "Análisis de sangre",
-                "result": "Recuento normal de glóbulos blancos"
-              }
-            ],
-            "meds": [
-              {
-                "idMed": 301,
+                "idMed": 303,
                 "dose": "500 mg cada 8 horas"
-              }
-            ],
-            "dx": "Resfriado común",
-            "ptr": [
-              "Alergia al polen",
-              "Asma leve"
-            ]
-          }
-        },
-        {
-          "idApp": 102,
-          "date": "2023-11-10T14:00:00",
-          "type": "Consulta Especializada",
-          "idDoc": 202,
-          "result": {
-            "rep": "Evaluación de presión arterial y ritmo cardíaco",
-            "tests": [
-              {
-                "type": "Electrocardiograma",
-                "result": "Sin anormalidades"
-              }
-            ],
-            "meds": [
-              {
-                "idMed": 302,
-                "dose": "50 mg diarios"
-              }
-            ],
-            "dx": "Hipertensión controlada",
-            "ptr": [
-              "Hipertensión"
-            ]
-          }
-        }
-      ],
-      "hosp": [
-        {
-          "admit": "2023-09-05",
-          "disch": "2023-09-10",
-          "reason": "Neumonía",
-          "meds": [
-            {
-              "idMed": 303,
-              "dose": "500 mg cada 8 horas"
-            },
-            {
-              "idMed": 304,
-              "dose": "400 mg cada 6 horas"
-            }
-          ]
-        }
-      ],
-      "surg": [
-        {
-          "idSurg": 301,
-          "date": "2022-08-15",
-          "type": "Apendicectomía",
-          "idDoc": 203,
-          "details": "Apendicitis aguda",
-          "postMed": [
-            {
-              "idMed": 305,
-              "dose": "400 mg cada 6 horas"
-            },
-            {
-              "idMed": 306,
-              "dose": "20 mg diarios"
-            }
-          ],
-          "status": "Recuperación sin complicaciones"
-        }
-      ]
-    },
-    {
-      "usr": { "id": 2 },
-      "aps": [
-        {
-          "idApp": 103,
-          "date": "2023-09-25T10:00:00",
-          "type": "Consulta General",
-          "idDoc": 204,
-          "result": {
-            "rep": "Dolores de cabeza y fatiga ocasionales.",
-            "tests": [
-              {
-                "type": "Análisis de sangre",
-                "result": "Normal"
-              }
-            ],
-            "meds": [
-              {
-                "idMed": 307,
-                "dose": "100 mg diarios"
-              }
-            ],
-            "dx": "Dolores de cabeza por tensión",
-            "ptr": [
-              "Estrés"
-            ]
-          }
-        }
-      ],
-      "hosp": [],
-      "surg": []
-    },
-    {
-      "usr": { "id": 3 },
-      "aps": [
-        {
-          "idApp": 104,
-          "date": "2023-10-10T11:30:00",
-          "type": "Consulta Especializada",
-          "idDoc": 205,
-          "result": {
-            "rep": "Evaluación rutinaria de piel.",
-            "tests": [
-              {
-                "type": "Biopsia de piel",
-                "result": "Benigno"
-              }
-            ],
-            "meds": [
-              {
-                "idMed": 308,
-                "dose": "Aplicar diariamente"
-              }
-            ],
-            "dx": "Psoriasis",
-            "ptr": []
-          }
-        }
-      ],
-      "hosp": [],
-      "surg": []
-    },
-    {
-      "usr": { "id": 4 },
-      "aps": [
-        {
-          "idApp": 105,
-          "date": "2023-11-02T15:00:00",
-          "type": "Consulta General",
-          "idDoc": 206,
-          "result": {
-            "rep": "Dificultad para respirar con actividad física.",
-            "tests": [
-              {
-                "type": "Espirometría",
-                "result": "Patrón obstructivo leve"
-              }
-            ],
-            "meds": [
-              {
-                "idMed": 309,
-                "dose": "2 inhalaciones dos veces al día"
-              }
-            ],
-            "dx": "Asma leve",
-            "ptr": [
-              "Condición respiratoria"
-            ]
-          }
-        }
-      ],
-      "hosp": [],
-      "surg": []
-    },
-    {
-      "usr": { "id": 5 },
-      "aps": [
-        {
-          "idApp": 106,
-          "date": "2023-09-18T13:45:00",
-          "type": "Consulta General",
-          "idDoc": 207,
-          "result": {
-            "rep": "Frecuencia urinaria y sed excesiva.",
-            "tests": [
-              {
-                "type": "Análisis de orina",
-                "result": "Glucosa presente"
               },
               {
-                "type": "Análisis de sangre",
-                "result": "Glucosa elevada"
+                "idMed": 304,
+                "dose": "400 mg cada 6 horas"
               }
-            ],
-            "meds": [
-              {
-                "idMed": 310,
-                "dose": "Metformina 500 mg dos veces al día"
-              }
-            ],
-            "dx": "Diabetes tipo 2",
-            "ptr": []
-          }
-        }
-      ],
-      "hosp": [],
-      "surg": []
-    },
-    {
-      "usr": { "id": 6 },
-      "aps": [
-        {
-          "idApp": 107,
-          "date": "2023-10-20T12:15:00",
-          "type": "Consulta Especializada",
-          "idDoc": 208,
-          "result": {
-            "rep": "Consulta rutinaria de cardiología.",
-            "tests": [
-              {
-                "type": "Ecocardiograma",
-                "result": "Normal"
-              }
-            ],
-            "meds": [],
-            "dx": "Corazón sano",
-            "ptr": []
-          }
-        }
-      ],
-      "hosp": [],
-      "surg": []
-    },
-    {
-      "usr": { "id": 7 },
-      "aps": [
-        {
-          "idApp": 108,
-          "date": "2023-11-05T10:45:00",
-          "type": "Consulta General",
-          "idDoc": 209,
-          "result": {
-            "rep": "Dolor en rodilla y dificultad para caminar.",
-            "tests": [
-              {
-                "type": "Radiografía",
-                "result": "Osteoartritis leve"
-              }
-            ],
-            "meds": [
-              {
-                "idMed": 311,
-                "dose": "Ibuprofeno 200 mg según sea necesario"
-              }
-            ],
-            "dx": "Osteoartritis",
-            "ptr": [
-              "Condición relacionada con la edad"
             ]
           }
-        }
-      ],
-      "hosp": [],
-      "surg": []
-    },
-    {
-      "usr": { "id": 8 },
-      "aps": [
-        {
-          "idApp": 109,
-          "date": "2023-08-22T14:30:00",
-          "type": "Consulta General",
-          "idDoc": 210,
-          "result": {
-            "rep": "Tos crónica y producción de moco.",
-            "tests": [
+        ],
+        "surgeries": [
+          {
+            "idSurg": 301,
+            "date": "2022-08-15",
+            "type": "Apendicectomía",
+            "idDoc": 203,
+            "details": "Apendicitis aguda",
+            "postMedications": [
               {
-                "type": "Radiografía de tórax",
-                "result": "Sin anormalidades"
-              }
-            ],
-            "meds": [
-              {
-                "idMed": 312,
-                "dose": "200 mg cada 8 horas"
-              }
-            ],
-            "dx": "Bronquitis crónica",
-            "ptr": [
-              "Historia de tabaquismo"
-            ]
-          }
-        }
-      ],
-      "hosp": [],
-      "surg": []
-    },
-    {
-      "usr": { "id": 9 },
-      "aps": [
-        {
-          "idApp": 110,
-          "date": "2023-09-01T16:00:00",
-          "type": "Consulta Especializada",
-          "idDoc": 211,
-          "result": {
-            "rep": "Examen rutinario de ojos.",
-            "tests": [
-              {
-                "type": "Oftalmoscopía",
-                "result": "Sin hallazgos importantes"
-              }
-            ],
-            "meds": [],
-            "dx": "Visión saludable",
-            "ptr": []
-          }
-        }
-      ],
-      "hosp": [],
-      "surg": []
-    },
-    {
-      "usr": { "id": 10 },
-      "aps": [
-        {
-          "idApp": 111,
-          "date": "2023-10-05T11:30:00",
-          "type": "Consulta General",
-          "idDoc": 212,
-          "result": {
-            "rep": "Dolor estomacal después de las comidas.",
-            "tests": [
-              {
-                "type": "Endoscopia",
-                "result": "Gastritis leve"
-              }
-            ],
-            "meds": [
-              {
-                "idMed": 313,
-                "dose": "Omeprazol 20 mg diarios"
-              }
-            ],
-            "dx": "Gastritis",
-            "ptr": []
-          }
-        }
-      ],
-      "hosp": [],
-      "surg": []
-    },
-    {
-      "usr": { "id": 11 },
-      "aps": [
-        {
-          "idApp": 112,
-          "date": "2023-08-10T13:00:00",
-          "type": "Consulta Especializada",
-          "idDoc": 213,
-          "result": {
-            "rep": "Dolor torácico intermitente.",
-            "tests": [
-              {
-                "type": "Prueba de esfuerzo",
-                "result": "Normal"
+                "idMed": 305,
+                "dose": "400 mg cada 6 horas"
               },
               {
-                "type": "ECG",
-                "result": "Sin anormalidades"
+                "idMed": 306,
+                "dose": "20 mg diarios"
               }
             ],
-            "meds": [],
-            "dx": "Sin problemas cardiovasculares",
-            "ptr": []
+            "status": "Recuperación sin complicaciones"
           }
-        }
-      ],
-      "hosp": [],
-      "surg": []
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "history": {
+        "appointments": [
+          {
+            "idApp": 103,
+            "date": "2023-09-25T10:00:00",
+            "type": "Consulta General",
+            "idDoc": 204,
+            "result": {
+              "report": "Dolores de cabeza y fatiga ocasionales.",
+              "tests": [
+                {
+                  "type": "Análisis de sangre",
+                  "result": "Normal"
+                }
+              ],
+              "medications": [
+                {
+                  "idMed": 307,
+                  "dose": "100 mg diarios"
+                }
+              ],
+              "diagnosis": "Dolores de cabeza por tensión",
+              "priorities": [
+                "Estrés"
+              ]
+            }
+          }
+        ],
+        "hospitalizations": [],
+        "surgeries": []
+      }
+    },
+    {
+      "id": 3,
+      "history": {
+        "appointments": [
+          {
+            "idApp": 104,
+            "date": "2023-10-10T11:30:00",
+            "type": "Consulta Especializada",
+            "idDoc": 205,
+            "result": {
+              "report": "Evaluación rutinaria de piel.",
+              "tests": [
+                {
+                  "type": "Biopsia de piel",
+                  "result": "Benigno"
+                }
+              ],
+              "medications": [
+                {
+                  "idMed": 308,
+                  "dose": "Aplicar diariamente"
+                }
+              ],
+              "diagnosis": "Psoriasis",
+              "priorities": []
+            }
+          }
+        ],
+        "hospitalizations": [],
+        "surgeries": []
+      }
+    },
+    {
+      "id": 4,
+      "history": {
+        "appointments": [
+          {
+            "idApp": 105,
+            "date": "2023-11-02T15:00:00",
+            "type": "Consulta General",
+            "idDoc": 206,
+            "result": {
+              "report": "Dificultad para respirar con actividad física.",
+              "tests": [
+                {
+                  "type": "Espirometría",
+                  "result": "Patrón obstructivo leve"
+                }
+              ],
+              "medications": [
+                {
+                  "idMed": 309,
+                  "dose": "2 inhalaciones dos veces al día"
+                }
+              ],
+              "diagnosis": "Asma leve",
+              "priorities": [
+                "Condición respiratoria"
+              ]
+            }
+          }
+        ],
+        "hospitalizations": [],
+        "surgeries": []
+      }
+    },
+    {
+      "id": 5,
+      "history": {
+        "appointments": [
+          {
+            "idApp": 106,
+            "date": "2023-09-18T13:45:00",
+            "type": "Consulta General",
+            "idDoc": 207,
+            "result": {
+              "report": "Frecuencia urinaria y sed excesiva.",
+              "tests": [
+                {
+                  "type": "Análisis de orina",
+                  "result": "Glucosa presente"
+                },
+                {
+                  "type": "Análisis de sangre",
+                  "result": "Glucosa elevada"
+                }
+              ],
+              "medications": [
+                {
+                  "idMed": 310,
+                  "dose": "Metformina 500 mg dos veces al día"
+                }
+              ],
+              "diagnosis": "Diabetes tipo 2",
+              "priorities": []
+            }
+          }
+        ],
+        "hospitalizations": [],
+        "surgeries": []
+      }
+    },
+    {
+      "id": 6,
+      "history": {
+        "appointments": [
+          {
+            "idApp": 107,
+            "date": "2023-10-20T12:15:00",
+            "type": "Consulta Especializada",
+            "idDoc": 208,
+            "result": {
+              "report": "Consulta rutinaria de cardiología.",
+              "tests": [
+                {
+                  "type": "Ecocardiograma",
+                  "result": "Normal"
+                }
+              ],
+              "medications": [],
+              "diagnosis": "Corazón sano",
+              "priorities": []
+            }
+          }
+        ],
+        "hospitalizations": [],
+        "surgeries": []
+      }
+    },
+    {
+      "id": 7,
+      "history": {
+        "appointments": [
+          {
+            "idApp": 108,
+            "date": "2023-11-05T10:45:00",
+            "type": "Consulta General",
+            "idDoc": 209,
+            "result": {
+              "report": "Dolor en rodilla y dificultad para caminar.",
+              "tests": [
+                {
+                  "type": "Radiografía",
+                  "result": "Osteoartritis leve"
+                }
+              ],
+              "medications": [
+                {
+                  "idMed": 311,
+                  "dose": "Ibuprofeno 200 mg según sea necesario"
+                }
+              ],
+              "diagnosis": "Osteoartritis",
+              "priorities": [
+                "Condición relacionada con la edad"
+              ]
+            }
+          }
+        ],
+        "hospitalizations": [],
+        "surgeries": []
+      }
+    },
+    {
+      "id": 8,
+      "history": {
+        "appointments": [
+          {
+            "idApp": 109,
+            "date": "2023-08-22T14:30:00",
+            "type": "Consulta General",
+            "idDoc": 210,
+            "result": {
+              "report": "Tos crónica y producción de moco.",
+              "tests": [
+                {
+                  "type": "Radiografía de tórax",
+                  "result": "Sin anormalidades"
+                }
+              ],
+              "medications": [
+                {
+                  "idMed": 312,
+                  "dose": "200 mg cada 8 horas"
+                }
+              ],
+              "diagnosis": "Bronquitis crónica",
+              "priorities": [
+                "Historia de tabaquismo"
+              ]
+            }
+          }
+        ],
+        "hospitalizations": [],
+        "surgeries": []
+      }
+    },
+    {
+      "id": 9,
+      "history": {
+        "appointments": [
+          {
+            "idApp": 110,
+            "date": "2023-09-01T16:00:00",
+            "type": "Consulta Especializada",
+            "idDoc": 211,
+            "result": {
+              "report": "Examen rutinario de ojos.",
+              "tests": [
+                {
+                  "type": "Oftalmoscopía",
+                  "result": "Sin hallazgos importantes"
+                }
+              ],
+              "medications": [],
+              "diagnosis": "Visión saludable",
+              "priorities": []
+            }
+          }
+        ],
+        "hospitalizations": [],
+        "surgeries": []
+      }
+    },
+    {
+      "id": 10,
+      "history": {
+        "appointments": [
+          {
+            "idApp": 111,
+            "date": "2023-10-05T11:30:00",
+            "type": "Consulta General",
+            "idDoc": 212,
+            "result": {
+              "report": "Dolor estomacal después de las comidas.",
+              "tests": [
+                {
+                  "type": "Endoscopia",
+                  "result": "Gastritis leve"
+                }
+              ],
+              "medications": [
+                {
+                  "idMed": 313,
+                  "dose": "Omeprazol 20 mg diarios"
+                }
+              ],
+              "diagnosis": "Gastritis",
+              "priorities": []
+            }
+          }
+        ],
+        "hospitalizations": [],
+        "surgeries": []
+      }
+    },
+    {
+      "id": 11,
+      "history": {
+        "appointments": [
+          {
+            "idApp": 112,
+            "date": "2023-08-10T13:00:00",
+            "type": "Consulta Especializada",
+            "idDoc": 213,
+            "result": {
+              "report": "Dolor torácico intermitente.",
+              "tests": [
+                {
+                  "type": "Prueba de esfuerzo",
+                  "result": "Normal"
+                },
+                {
+                  "type": "ECG",
+                  "result": "Sin anormalidades"
+                }
+              ],
+              "medications": [],
+              "diagnosis": "Sin problemas cardiovasculares",
+              "priorities": []
+            }
+          }
+        ],
+        "hospitalizations": [],
+        "surgeries": []
+      }
     }
   ]
 }
+

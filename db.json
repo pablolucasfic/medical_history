@@ -352,69 +352,6 @@
         "hospit": [],
         "surger": []
       }
-    },
-    {
-      "id": 10,
-      "hist": {
-        "appoint": [
-          {
-            "idApp": 111,
-            "date": "2023-10-05T11:30:00",
-            "type": "Consulta General",
-            "idDoc": 212,
-            "result": {
-              "report": "Dolor estomacal después de las comidas.",
-              "tests": [
-                {
-                  "type": "Endoscopia",
-                  "result": "Gastritis leve"
-                }
-              ],
-              "medicat": [
-                {
-                  "idMed": 313,
-                  "dose": "Omeprazol 20 mg diarios"
-                }
-              ],
-              "diag": "Gastritis",
-              "prior": []
-            }
-          }
-        ],
-        "hospit": [],
-        "surger": []
-      }
-    },
-    {
-      "id": 11,
-      "hist": {
-        "appoint": [
-          {
-            "idApp": 112,
-            "date": "2023-08-10T13:00:00",
-            "type": "Consulta Especializada",
-            "idDoc": 213,
-            "result": {
-              "report": "Dolor torácico intermitente.",
-              "tests": [
-                {
-                  "type": "Prueba de esfuerzo",
-                  "result": "Normal"
-                },
-                {
-                  "type": "ECG",
-                  "result": "Sin anormalidades"
-                }
-              ],
-              "medicat": [],
-              "diag": "Sin problemas cardiovasculares",
-              "prior": []
-            }
-          }
-        ],
-        "hospit": [],
-        "surger": []
-      }
     }
   ]
 }

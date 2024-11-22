@@ -2,8 +2,8 @@
   "users": [
     {
       "id": 1,
-      "history": {
-        "appointments": [
+      "hist": {
+        "appoint": [
           {
             "idApp": 101,
             "date": "2023-10-15T09:30:00",
@@ -17,14 +17,14 @@
                   "result": "Recuento normal de glóbulos blancos"
                 }
               ],
-              "medications": [
+              "medicat": [
                 {
                   "idMed": 301,
                   "dose": "500 mg cada 8 horas"
                 }
               ],
-              "diagnosis": "Resfriado común",
-              "priorities": [
+              "diag": "Resfriado común",
+              "prior": [
                 "Alergia al polen",
                 "Asma leve"
               ]
@@ -43,25 +43,25 @@
                   "result": "Sin anormalidades"
                 }
               ],
-              "medications": [
+              "medicat": [
                 {
                   "idMed": 302,
                   "dose": "50 mg diarios"
                 }
               ],
-              "diagnosis": "Hipertensión controlada",
-              "priorities": [
+              "diag": "Hipertensión controlada",
+              "prior": [
                 "Hipertensión"
               ]
             }
           }
         ],
-        "hospitalizations": [
+        "hospit": [
           {
             "admissionDate": "2023-09-05",
             "dischargeDate": "2023-09-10",
             "reason": "Neumonía",
-            "medications": [
+            "medicat": [
               {
                 "idMed": 303,
                 "dose": "500 mg cada 8 horas"
@@ -73,14 +73,14 @@
             ]
           }
         ],
-        "surgeries": [
+        "surger": [
           {
             "idSurg": 301,
             "date": "2022-08-15",
             "type": "Apendicectomía",
             "idDoc": 203,
             "details": "Apendicitis aguda",
-            "postMedications": [
+            "postmedicat": [
               {
                 "idMed": 305,
                 "dose": "400 mg cada 6 horas"
@@ -97,8 +97,8 @@
     },
     {
       "id": 2,
-      "history": {
-        "appointments": [
+      "hist": {
+        "appoint": [
           {
             "idApp": 103,
             "date": "2023-09-25T10:00:00",
@@ -112,27 +112,27 @@
                   "result": "Normal"
                 }
               ],
-              "medications": [
+              "medicat": [
                 {
                   "idMed": 307,
                   "dose": "100 mg diarios"
                 }
               ],
-              "diagnosis": "Dolores de cabeza por tensión",
-              "priorities": [
+              "diag": "Dolores de cabeza por tensión",
+              "prior": [
                 "Estrés"
               ]
             }
           }
         ],
-        "hospitalizations": [],
-        "surgeries": []
+        "hospit": [],
+        "surger": []
       }
     },
     {
       "id": 3,
-      "history": {
-        "appointments": [
+      "hist": {
+        "appoint": [
           {
             "idApp": 104,
             "date": "2023-10-10T11:30:00",
@@ -146,25 +146,25 @@
                   "result": "Benigno"
                 }
               ],
-              "medications": [
+              "medicat": [
                 {
                   "idMed": 308,
                   "dose": "Aplicar diariamente"
                 }
               ],
-              "diagnosis": "Psoriasis",
-              "priorities": []
+              "diag": "Psoriasis",
+              "prior": []
             }
           }
         ],
-        "hospitalizations": [],
-        "surgeries": []
+        "hospit": [],
+        "surger": []
       }
     },
     {
       "id": 4,
-      "history": {
-        "appointments": [
+      "hist": {
+        "appoint": [
           {
             "idApp": 105,
             "date": "2023-11-02T15:00:00",
@@ -178,27 +178,27 @@
                   "result": "Patrón obstructivo leve"
                 }
               ],
-              "medications": [
+              "medicat": [
                 {
                   "idMed": 309,
                   "dose": "2 inhalaciones dos veces al día"
                 }
               ],
-              "diagnosis": "Asma leve",
-              "priorities": [
+              "diag": "Asma leve",
+              "prior": [
                 "Condición respiratoria"
               ]
             }
           }
         ],
-        "hospitalizations": [],
-        "surgeries": []
+        "hospit": [],
+        "surger": []
       }
     },
     {
       "id": 5,
-      "history": {
-        "appointments": [
+      "hist": {
+        "appoint": [
           {
             "idApp": 106,
             "date": "2023-09-18T13:45:00",
@@ -216,25 +216,25 @@
                   "result": "Glucosa elevada"
                 }
               ],
-              "medications": [
+              "medicat": [
                 {
                   "idMed": 310,
                   "dose": "Metformina 500 mg dos veces al día"
                 }
               ],
-              "diagnosis": "Diabetes tipo 2",
-              "priorities": []
+              "diag": "Diabetes tipo 2",
+              "prior": []
             }
           }
         ],
-        "hospitalizations": [],
-        "surgeries": []
+        "hospit": [],
+        "surger": []
       }
     },
     {
       "id": 6,
-      "history": {
-        "appointments": [
+      "hist": {
+        "appoint": [
           {
             "idApp": 107,
             "date": "2023-10-20T12:15:00",
@@ -248,20 +248,20 @@
                   "result": "Normal"
                 }
               ],
-              "medications": [],
-              "diagnosis": "Corazón sano",
-              "priorities": []
+              "medicat": [],
+              "diag": "Corazón sano",
+              "prior": []
             }
           }
         ],
-        "hospitalizations": [],
-        "surgeries": []
+        "hospit": [],
+        "surger": []
       }
     },
     {
       "id": 7,
-      "history": {
-        "appointments": [
+      "hist": {
+        "appoint": [
           {
             "idApp": 108,
             "date": "2023-11-05T10:45:00",
@@ -275,27 +275,27 @@
                   "result": "Osteoartritis leve"
                 }
               ],
-              "medications": [
+              "medicat": [
                 {
                   "idMed": 311,
                   "dose": "Ibuprofeno 200 mg según sea necesario"
                 }
               ],
-              "diagnosis": "Osteoartritis",
-              "priorities": [
+              "diag": "Osteoartritis",
+              "prior": [
                 "Condición relacionada con la edad"
               ]
             }
           }
         ],
-        "hospitalizations": [],
-        "surgeries": []
+        "hospit": [],
+        "surger": []
       }
     },
     {
       "id": 8,
-      "history": {
-        "appointments": [
+      "hist": {
+        "appoint": [
           {
             "idApp": 109,
             "date": "2023-08-22T14:30:00",
@@ -309,27 +309,27 @@
                   "result": "Sin anormalidades"
                 }
               ],
-              "medications": [
+              "medicat": [
                 {
                   "idMed": 312,
                   "dose": "200 mg cada 8 horas"
                 }
               ],
-              "diagnosis": "Bronquitis crónica",
-              "priorities": [
+              "diag": "Bronquitis crónica",
+              "prior": [
                 "Historia de tabaquismo"
               ]
             }
           }
         ],
-        "hospitalizations": [],
-        "surgeries": []
+        "hospit": [],
+        "surger": []
       }
     },
     {
       "id": 9,
-      "history": {
-        "appointments": [
+      "hist": {
+        "appoint": [
           {
             "idApp": 110,
             "date": "2023-09-01T16:00:00",
@@ -343,20 +343,20 @@
                   "result": "Sin hallazgos importantes"
                 }
               ],
-              "medications": [],
-              "diagnosis": "Visión saludable",
-              "priorities": []
+              "medicat": [],
+              "diag": "Visión saludable",
+              "prior": []
             }
           }
         ],
-        "hospitalizations": [],
-        "surgeries": []
+        "hospit": [],
+        "surger": []
       }
     },
     {
       "id": 10,
-      "history": {
-        "appointments": [
+      "hist": {
+        "appoint": [
           {
             "idApp": 111,
             "date": "2023-10-05T11:30:00",
@@ -370,25 +370,25 @@
                   "result": "Gastritis leve"
                 }
               ],
-              "medications": [
+              "medicat": [
                 {
                   "idMed": 313,
                   "dose": "Omeprazol 20 mg diarios"
                 }
               ],
-              "diagnosis": "Gastritis",
-              "priorities": []
+              "diag": "Gastritis",
+              "prior": []
             }
           }
         ],
-        "hospitalizations": [],
-        "surgeries": []
+        "hospit": [],
+        "surger": []
       }
     },
     {
       "id": 11,
-      "history": {
-        "appointments": [
+      "hist": {
+        "appoint": [
           {
             "idApp": 112,
             "date": "2023-08-10T13:00:00",
@@ -406,16 +406,15 @@
                   "result": "Sin anormalidades"
                 }
               ],
-              "medications": [],
-              "diagnosis": "Sin problemas cardiovasculares",
-              "priorities": []
+              "medicat": [],
+              "diag": "Sin problemas cardiovasculares",
+              "prior": []
             }
           }
         ],
-        "hospitalizations": [],
-        "surgeries": []
+        "hospit": [],
+        "surger": []
       }
     }
   ]
 }
-
